@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/Text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <!-- Soft Skills -->
+    <Button
+        android:id="@+id/btn_soft_skills"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/Text_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Soft Skills"
+        android:background="#FF4081"/>
+
+    <!-- Android App Development -->
+    <Button
+        android:id="@+id/btn_android"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_soft_skills"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Android App Development"
+        android:background="#40C4FF"/>
+
+    <!-- Python -->
+    <Button
+        android:id="@+id/btn_python"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_android"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Python"
+        android:background="#7C4DFF"/>
+
+    <!-- AR/VR -->
+    <Button
+        android:id="@+id/btn_ar_vr"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_python"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="AR/VR"
+        android:background="#FFD740"/>
+
+    <!-- Blockchain -->
+    <Button
+        android:id="@+id/btn_blockchain"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/btn_ar_vr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Blockchain"
+        android:background="#00E676"/>
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/btn_blockchain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Logout"
+        android:background="#FF6E40" />
+
+</RelativeLayout>
